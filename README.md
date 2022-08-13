@@ -10,11 +10,11 @@
 
 This application has a few REST end-points that provide bookings information: 
 
-1. GET  /bookings                   - get all bookings
-2. POST /bookings                   - save booking
-3. GET  /bookings/{bookingId}       - get booking by id
-4. GET  /bookings/flight/{flightId} - get all bookings by flight
-5. GET  /flight/{flightId}/count    - get count of bookings by flight
+1. GET  /bookings                            - get all bookings
+2. POST /bookings                            - save booking
+3. GET  /bookings/{bookingId}                - get booking by id
+4. GET  /bookings/flight/{flightId}          - get all bookings by flight
+5. GET  /bookings/flight/{flightId}/count    - get count of bookings by flight
 
 . End-point that provide flights information:
 1. GET  /flights                    - get all flights
