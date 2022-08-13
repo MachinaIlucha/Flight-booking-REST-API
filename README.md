@@ -1,6 +1,10 @@
-# Flight Booking REST API
+## Technologies used
 
-SpringBoot Application that demonstrates REST API Development using Spring MVC, Spring Data JPA using Java 8 features
+1. Java (Programming Language)
+2. Spring Boot (Application Platform)
+3. Spring Data JPA (Data persistence)
+4. PostgreSQL (Database)
+5. JUnit, with Spring Testing (Unit & Integration Testing)
 
 ## Features
 
@@ -26,11 +30,3 @@ This application has a few REST end-points that provide bookings information:
 1. GET  /passengers                 - get all passengers
 2. GET  /passengers/{flightId}      - get passenger by id
 3. POST /passengers                 - save passenger
-
-## Technologies used
-
-1. Java (Programming Language)
-2. Spring Boot (Application Platform)
-3. Spring Data JPA (Data persistence)
-4. PostgreSQL (Database)
-5. JUnit, with Spring Testing (Unit & Integration Testing)
